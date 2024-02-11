@@ -1,0 +1,35 @@
+body {
+    background-color: #121212;
+    display: flex;
+    /* min-width: 100vw; */
+    color: white;
+}
+.mainframe {
+    margin: auto 5%;
+    /* background-color: blueviolet; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mainframe h1 {
+    color: white;
+    font-size: 18px;
+    width: 100%;
+}
+.tiktok {
+    justify-items: center;
+    /* width: 200px; */
+    max-width: 100%;
+}
+.btn {
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 0;
+    /* display: flex; */
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
